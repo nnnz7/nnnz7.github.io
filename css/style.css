@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.logo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+.logo h1 span {
+    font-weight: normal;
+    display: block;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.content {
+    margin: 20px;
+    padding: 10px;
+}
+
+.data p {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 0 0 0 5px;
+    margin: 0 0 5px 0;
+}
+
+.data p span {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+    padding: 30px;
+
+
+}
+
+.photo {
+    padding: 10px 5px 30px;
+}
+
+.footer p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+.menu a:hover  {
+    background: darkgray;
+
+}
+
+.menu a {
+    padding: 10px 20px 10px 20px  ;
+    font-family: Arial, sans-serif;
+}
+
+.menu a:active {
+    background: darkgray;
+}
+
+.info span {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.info {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+    padding: 0 0 0 10px;
+}
+
